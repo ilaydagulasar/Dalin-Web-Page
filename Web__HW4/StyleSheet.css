@@ -1,0 +1,173 @@
+﻿body {
+}
+
+#navBar {
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 120px;
+    font-family: Verdana;
+    width: 100%;
+    color: yellow;
+    background-color: red;
+    padding: 0px;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 32px;
+    color: red;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Courier New';
+    padding: 0px;
+    text-decoration: none;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+table {
+    border: 3px solid yellow; /* en dış çerçeve için*/
+}
+
+tr, td {
+    padding: 10px;
+}
+
+.content {
+    margin: 0 20px 0 20px;
+}
+
+.MyListElements {
+    border-style: ridge;
+    border-color: darkolivegreen;
+    background-color: yellowgreen;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.footer {
+    clear: both;
+    background-color: yellowgreen;
+    width: 1300px;
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+}
+
+.myImg {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    position: relative;
+    width: 16%;
+    max-width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+    a:link {
+        color: darkolivegreen;
+    }
+
+    a:visited {
+        color: purple;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    a:active {
+        color: red;
+    }
+
+.rotatedItem {
+    transform: skewY(20deg);
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+#form1 {
+    width: 100%;
+    margin: 5% 30% 0 30%;
+    color: white;
+}
+
+    #form1 div table {
+        padding: 40px;
+        width: 40%;
+        table-layout: fixed;
+        text-align: right;
+    }
+
+    #form1 td:nth-child(odd) {
+        text-align: right;
+    }
+
+    #form1 td:nth-child(even) {
+        text-align: left;
+    }
+
+    #form1 td[colspan="2"] {
+        text-align: center;
+    }
+
+#form2 {
+    width: 100%;
+    margin: 5% 30% 0 30%;
+    color: white;
+}
+
+    #form2 div table {
+        padding: 40px;
+        width: 40%;
+        table-layout: fixed;
+        text-align: right;
+    }
+
+    #form2 td:nth-child(odd) {
+        text-align: right;
+    }
+
+    #form2 td:nth-child(even) {
+        text-align: left;
+    }
+
+    #form2 td[colspan="2"] {
+        text-align: center;
+    }
